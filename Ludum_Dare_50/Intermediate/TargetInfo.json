@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Ludum_Dare_50",
+			"Path": "D:\\GitHub\\Ludum-Dare-50\\Ludum_Dare_50\\Source\\Ludum_Dare_50.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "Ludum_Dare_50Editor",
+			"Path": "D:\\GitHub\\Ludum-Dare-50\\Ludum_Dare_50\\Source\\Ludum_Dare_50Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

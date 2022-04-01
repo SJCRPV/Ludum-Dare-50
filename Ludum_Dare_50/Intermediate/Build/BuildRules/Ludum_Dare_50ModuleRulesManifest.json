@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\GitHub\\Ludum-Dare-50\\Ludum_Dare_50\\Source\\Ludum_Dare_50\\Ludum_Dare_50.Build.cs",
+		"D:\\GitHub\\Ludum-Dare-50\\Ludum_Dare_50\\Source\\Ludum_Dare_50.Target.cs",
+		"D:\\GitHub\\Ludum-Dare-50\\Ludum_Dare_50\\Source\\Ludum_Dare_50Editor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
