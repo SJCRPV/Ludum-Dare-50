@@ -6544,3 +6544,223 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.04.02-16.40.26:732][907]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2022.04.02-16.40.26:744][907]LogUObjectHash: Compacting FUObjectHashTables data took  10.08ms
 [2022.04.02-16.40.26:835][908]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2022.04.02-16.44.14:212][757]AssetReimport: New page: Outstanding source content changes 18:44:14
+[2022.04.02-16.44.14:218][757]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/bigtable.png)
+[2022.04.02-16.44.14:265][757]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/circle.png)
+[2022.04.02-16.44.14:299][757]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune1.png)
+[2022.04.02-16.44.14:320][757]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune2.png)
+[2022.04.02-16.44.14:348][757]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune3.png)
+[2022.04.02-16.44.14:522][758]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune4.png)
+[2022.04.02-16.44.14:545][758]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune5.png)
+[2022.04.02-16.44.14:572][758]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune6.png)
+[2022.04.02-16.44.14:597][758]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune7.png)
+[2022.04.02-16.44.14:619][758]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune8.png)
+[2022.04.02-16.44.14:713][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/bigtable" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/bigtable.uasset" SILENT=true
+[2022.04.02-16.44.14:723][758]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/bigtableA96BF00549FD901EF06D76A6946C35F7.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/bigtable.uasset'
+[2022.04.02-16.44.14:732][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/circle" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/circle.uasset" SILENT=true
+[2022.04.02-16.44.14:743][758]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/circle9E1C61EC4BDDC2BDCA9A4683CF2E4944.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/circle.uasset'
+[2022.04.02-16.44.14:746][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/rune1" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune1.uasset" SILENT=true
+[2022.04.02-16.44.14:749][758]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/rune1E9F4A2B44F879940E9B8B9A2D4BE04EA.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune1.uasset'
+[2022.04.02-16.44.14:753][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/rune2" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune2.uasset" SILENT=true
+[2022.04.02-16.44.14:755][758]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/rune235C607B14FE722B06DFBA8A01A59E165.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune2.uasset'
+[2022.04.02-16.44.14:757][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/rune3" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune3.uasset" SILENT=true
+[2022.04.02-16.44.14:760][758]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/rune3B2183C4D494E32F353CFD08FD8B1FDDA.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune3.uasset'
+[2022.04.02-16.44.14:764][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/rune4" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune4.uasset" SILENT=true
+[2022.04.02-16.44.14:766][758]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/rune490AA0BD94A5A7DDDE6F2C4B54FD6E219.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune4.uasset'
+[2022.04.02-16.44.14:771][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/rune5" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune5.uasset" SILENT=true
+[2022.04.02-16.44.14:773][758]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/rune56BCA48C64CC1A78D19B075A7D8E25775.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune5.uasset'
+[2022.04.02-16.44.14:776][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/rune6" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune6.uasset" SILENT=true
+[2022.04.02-16.44.14:778][758]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/rune6DFA853F44A0636216DDDFFBA4A381D8B.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune6.uasset'
+[2022.04.02-16.44.14:782][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/rune7" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune7.uasset" SILENT=true
+[2022.04.02-16.44.14:785][758]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/rune7659830D04D3DD30A55AA1FA1B9255965.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune7.uasset'
+[2022.04.02-16.44.14:788][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/rune8" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune8.uasset" SILENT=true
+[2022.04.02-16.44.14:791][758]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/rune860090F324875597B4856D489931946A2.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune8.uasset'
+[2022.04.02-16.44.14:877][759]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.02-16.44.14:877][759]LogContentValidation: Display: Validating Texture2D /Game/Art/rune8.rune8
+[2022.04.02-16.44.14:877][759]LogContentValidation: Display: Validating Texture2D /Game/Art/rune7.rune7
+[2022.04.02-16.44.14:877][759]LogContentValidation: Display: Validating Texture2D /Game/Art/rune6.rune6
+[2022.04.02-16.44.14:877][759]LogContentValidation: Display: Validating Texture2D /Game/Art/rune5.rune5
+[2022.04.02-16.44.14:877][759]LogContentValidation: Display: Validating Texture2D /Game/Art/rune4.rune4
+[2022.04.02-16.44.14:877][759]LogContentValidation: Display: Validating Texture2D /Game/Art/rune3.rune3
+[2022.04.02-16.44.14:877][759]LogContentValidation: Display: Validating Texture2D /Game/Art/rune2.rune2
+[2022.04.02-16.44.14:877][759]LogContentValidation: Display: Validating Texture2D /Game/Art/rune1.rune1
+[2022.04.02-16.44.14:877][759]LogContentValidation: Display: Validating Texture2D /Game/Art/circle.circle
+[2022.04.02-16.44.14:877][759]LogContentValidation: Display: Validating Texture2D /Game/Art/bigtable.bigtable
+[2022.04.02-16.44.17:884][768]AssetReimport: Importing new asset /Game/Art/bigtable.
+[2022.04.02-16.44.17:885][768]AssetReimport: Importing new asset /Game/Art/circle.
+[2022.04.02-16.44.17:885][768]AssetReimport: Importing new asset /Game/Art/rune1.
+[2022.04.02-16.44.17:885][768]AssetReimport: Importing new asset /Game/Art/rune2.
+[2022.04.02-16.44.17:885][768]AssetReimport: Importing new asset /Game/Art/rune3.
+[2022.04.02-16.44.17:885][768]AssetReimport: Importing new asset /Game/Art/rune4.
+[2022.04.02-16.44.17:885][768]AssetReimport: Importing new asset /Game/Art/rune5.
+[2022.04.02-16.44.17:885][768]AssetReimport: Importing new asset /Game/Art/rune6.
+[2022.04.02-16.44.17:885][768]AssetReimport: Importing new asset /Game/Art/rune7.
+[2022.04.02-16.44.17:885][768]AssetReimport: Importing new asset /Game/Art/rune8.
+[2022.04.02-16.44.32:397][812]LogSlate: Window 'Project Settings' being destroyed
+[2022.04.02-16.44.32:407][812]LogSlate: Window 'Project Settings' being destroyed
+[2022.04.02-16.44.35:540][821]LogSlate: Window 'MinigameStation_BP' being destroyed
+[2022.04.02-16.44.35:548][821]LogSlate: Window 'MinigameStation_BP' being destroyed
+[2022.04.02-16.44.35:564][821]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.04.02-16.44.35:564][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.02-16.44.35:743][821]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2022.04.02-16.44.35:743][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.02-16.44.35:794][821]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2022.04.02-16.44.35:795][821]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.04.02-16.44.35:795][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.02-16.44.46:907][399]LogTexture: Display: Building textures: bigtable (BGRA8, 512X256)
+[2022.04.02-16.44.46:944][399]LogTexture: Display: Building textures: circle (BGRA8, 256X256)
+[2022.04.02-16.44.50:013][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/magicianAnimation" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/magicianAnimation.uasset" SILENT=true
+[2022.04.02-16.44.50:017][601]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/magicianAnimation97717E00443B9C61861989B0AFF0068E.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/magicianAnimation.uasset'
+[2022.04.02-16.44.50:021][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Tower_TileSheet" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/Tower_TileSheet.uasset" SILENT=true
+[2022.04.02-16.44.50:025][601]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/Tower_TileSheet7E39664249194638ADC97A9E444F4B66.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/Tower_TileSheet.uasset'
+[2022.04.02-16.44.50:029][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/magicianfront" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/magicianfront.uasset" SILENT=true
+[2022.04.02-16.44.50:033][601]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/magicianfrontF3EF31D74B4DE35F97E107ABCCC0FD5B.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/magicianfront.uasset'
+[2022.04.02-16.44.50:036][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/rift" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rift.uasset" SILENT=true
+[2022.04.02-16.44.50:046][601]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/riftBAA5602B491B8610EFCF0DA3B8FE0DCD.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rift.uasset'
+[2022.04.02-16.44.50:050][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/wall1" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/wall1.uasset" SILENT=true
+[2022.04.02-16.44.50:054][601]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/wall1A3CA255B49DE1C22E86362857577124F.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/wall1.uasset'
+[2022.04.02-16.44.50:057][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/upwall4" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/upwall4.uasset" SILENT=true
+[2022.04.02-16.44.50:061][601]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/upwall4D13F42BB4EFE32D298331C805DE0A483.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/upwall4.uasset'
+[2022.04.02-16.44.50:065][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/upwall3" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/upwall3.uasset" SILENT=true
+[2022.04.02-16.44.50:068][601]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/upwall3ADAEC41C48A567E25103AE804B574372.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/upwall3.uasset'
+[2022.04.02-16.44.50:071][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/upwall2" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/upwall2.uasset" SILENT=true
+[2022.04.02-16.44.50:074][601]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/upwall2FD5CF91E425D3C645CCE12A8E0DEA34C.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/upwall2.uasset'
+[2022.04.02-16.44.50:078][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/upwall1" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/upwall1.uasset" SILENT=true
+[2022.04.02-16.44.50:082][601]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/upwall160AD8B46485BF62326CA84BCD3F5F904.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/upwall1.uasset'
+[2022.04.02-16.44.50:085][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/floor1" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/floor1.uasset" SILENT=true
+[2022.04.02-16.44.50:088][601]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/floor194E18AED410F1AE26C4DF995E88AA383.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/floor1.uasset'
+[2022.04.02-16.44.50:092][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/wall2" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/wall2.uasset" SILENT=true
+[2022.04.02-16.44.50:095][601]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/wall2655BCF2D488A28B8B93C32806F54B999.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/wall2.uasset'
+[2022.04.02-16.44.50:099][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/rune8" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune8.uasset" SILENT=true
+[2022.04.02-16.44.50:101][601]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/rune8F542805F47E5A35A47E828BC78722BD9.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune8.uasset'
+[2022.04.02-16.44.50:104][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/rune7" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune7.uasset" SILENT=true
+[2022.04.02-16.44.50:106][601]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/rune7218318C645E03CD622B7A8B5BB42A35E.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune7.uasset'
+[2022.04.02-16.44.50:109][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/rune6" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune6.uasset" SILENT=true
+[2022.04.02-16.44.50:111][601]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/rune6732A696840B65267916D79AD779B4F2D.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune6.uasset'
+[2022.04.02-16.44.50:115][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/rune5" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune5.uasset" SILENT=true
+[2022.04.02-16.44.50:117][601]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/rune5AAAF87AF4971DECFA3FDFE9553907609.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune5.uasset'
+[2022.04.02-16.44.50:131][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/rune4" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune4.uasset" SILENT=true
+[2022.04.02-16.44.50:134][601]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/rune44E25E52B451AB21FE97A25A12287BB68.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune4.uasset'
+[2022.04.02-16.44.50:137][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/rune3" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune3.uasset" SILENT=true
+[2022.04.02-16.44.50:139][601]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/rune369776DB347DB66CB45332FBC14125F35.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune3.uasset'
+[2022.04.02-16.44.50:142][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/rune2" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune2.uasset" SILENT=true
+[2022.04.02-16.44.50:144][601]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/rune2E4CE914545876014D0977BADEFFD385D.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune2.uasset'
+[2022.04.02-16.44.50:148][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/rune1" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune1.uasset" SILENT=true
+[2022.04.02-16.44.50:150][601]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/rune1C194C76B4D01A874C5213988C59123E3.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/rune1.uasset'
+[2022.04.02-16.44.50:163][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/circle" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/circle.uasset" SILENT=true
+[2022.04.02-16.44.50:170][601]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/circleD755C64F43B3DC4A3A020A8D6FC3266D.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/circle.uasset'
+[2022.04.02-16.44.50:178][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/bigtable" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/bigtable.uasset" SILENT=true
+[2022.04.02-16.44.50:183][601]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/bigtable8C4408EE443373A698CB2E9E8678976B.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/bigtable.uasset'
+[2022.04.02-16.44.50:188][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/book" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/book.uasset" SILENT=true
+[2022.04.02-16.44.50:206][601]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/bookA8BF48A84D2CC8B6310741912934A95F.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Art/book.uasset'
+[2022.04.02-16.44.50:263][601]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.02-16.44.50:263][601]LogContentValidation: Display: Validating Texture2D /Game/Art/magicianAnimation.magicianAnimation
+[2022.04.02-16.44.50:263][601]LogContentValidation: Display: Validating Texture2D /Game/Art/Tower_TileSheet.Tower_TileSheet
+[2022.04.02-16.44.50:263][601]LogContentValidation: Display: Validating Texture2D /Game/Art/magicianfront.magicianfront
+[2022.04.02-16.44.50:263][601]LogContentValidation: Display: Validating Texture2D /Game/Art/rift.rift
+[2022.04.02-16.44.50:263][601]LogContentValidation: Display: Validating Texture2D /Game/Art/wall1.wall1
+[2022.04.02-16.44.50:264][601]LogContentValidation: Display: Validating Texture2D /Game/Art/upwall4.upwall4
+[2022.04.02-16.44.50:264][601]LogContentValidation: Display: Validating Texture2D /Game/Art/upwall3.upwall3
+[2022.04.02-16.44.50:264][601]LogContentValidation: Display: Validating Texture2D /Game/Art/upwall2.upwall2
+[2022.04.02-16.44.50:264][601]LogContentValidation: Display: Validating Texture2D /Game/Art/upwall1.upwall1
+[2022.04.02-16.44.50:264][601]LogContentValidation: Display: Validating Texture2D /Game/Art/floor1.floor1
+[2022.04.02-16.44.50:264][601]LogContentValidation: Display: Validating Texture2D /Game/Art/wall2.wall2
+[2022.04.02-16.44.50:264][601]LogContentValidation: Display: Validating Texture2D /Game/Art/rune8.rune8
+[2022.04.02-16.44.50:264][601]LogContentValidation: Display: Validating Texture2D /Game/Art/rune7.rune7
+[2022.04.02-16.44.50:264][601]LogContentValidation: Display: Validating Texture2D /Game/Art/rune6.rune6
+[2022.04.02-16.44.50:264][601]LogContentValidation: Display: Validating Texture2D /Game/Art/rune5.rune5
+[2022.04.02-16.44.50:264][601]LogContentValidation: Display: Validating Texture2D /Game/Art/rune4.rune4
+[2022.04.02-16.44.50:264][601]LogContentValidation: Display: Validating Texture2D /Game/Art/rune3.rune3
+[2022.04.02-16.44.50:264][601]LogContentValidation: Display: Validating Texture2D /Game/Art/rune2.rune2
+[2022.04.02-16.44.50:264][601]LogContentValidation: Display: Validating Texture2D /Game/Art/rune1.rune1
+[2022.04.02-16.44.50:264][601]LogContentValidation: Display: Validating Texture2D /Game/Art/circle.circle
+[2022.04.02-16.44.50:264][601]LogContentValidation: Display: Validating Texture2D /Game/Art/bigtable.bigtable
+[2022.04.02-16.44.50:264][601]LogContentValidation: Display: Validating Texture2D /Game/Art/book.book
+[2022.04.02-16.45.15:413][139]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Sprites/Book/PageTurnBack.PageTurnBack
+[2022.04.02-16.45.15:705][139]LogRenderer: Reallocating scene render targets to support 1528x920 Format 10 NumSamples 1 (Frame:1).
+[2022.04.02-16.45.21:606][418]LogAssetEditorSubsystem: Opening Asset editor for PaperFlipbook /Game/Sprites/Book/PageTurnForward.PageTurnForward
+[2022.04.02-16.45.33:228][959]LogSlate: Window 'PageTurnForward' being destroyed
+[2022.04.02-16.45.33:259][959]LogSlate: Window 'PageTurnForward' being destroyed
+[2022.04.02-16.45.33:267][959]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.04.02-16.45.33:267][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.02-16.45.33:357][959]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.04.02-16.45.33:357][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.02-16.45.36:680][126]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/Sprites/Book/book_Book_1.book_Book_1
+[2022.04.02-16.45.46:572][534]LogAssetEditorSubsystem: Opening Asset editor for PaperSprite /Game/Sprites/Book/book_Book_2.book_Book_2
+[2022.04.02-16.45.53:510][813]LogSlate: Window 'book_Book_2' being destroyed
+[2022.04.02-16.45.53:539][813]LogSlate: Window 'book_Book_2' being destroyed
+[2022.04.02-16.45.53:548][813]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.04.02-16.45.53:548][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.02-16.45.53:605][813]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.04.02-16.45.53:605][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.02-16.46.20:653][487]LogUObjectHash: Compacting FUObjectHashTables data took  12.37ms
+[2022.04.02-16.46.20:676][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PrototypeMap" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/Autosaves/Game/Levels/PrototypeMap_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2022.04.02-16.46.20:699][487]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/PrototypeMap_Auto3387DA9E14CF3ACDB1666599D63A3D5D7.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/Autosaves/Game/Levels/PrototypeMap_Auto3.umap'
+[2022.04.02-16.46.20:703][487]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/PrototypeMap' took 0.312
+[2022.04.02-16.46.20:703][487]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.312
+[2022.04.02-16.46.27:533][ 82]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/MinigameStation_BP.MinigameStation_BP
+[2022.04.02-16.46.33:412][340]LogSlate: Window 'MinigameStation_BP' being destroyed
+[2022.04.02-16.46.33:442][340]LogSlate: Window 'MinigameStation_BP' being destroyed
+[2022.04.02-16.46.33:450][340]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2022.04.02-16.46.33:450][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.02-16.47.42:071][ 88]LogTemp: Repeating last play command: Selected Viewport
+[2022.04.02-16.47.42:083][ 88]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.04.02-16.47.42:083][ 88]PIE: New page: PIE session: PrototypeMap (02/04/2022, 18:47:42)
+[2022.04.02-16.47.42:083][ 88]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PrototypeMap
+[2022.04.02-16.47.42:089][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005858s)
+[2022.04.02-16.47.42:091][ 88]LogAIModule: Creating AISystem for world PrototypeMap
+[2022.04.02-16.47.42:092][ 88]LogPlayLevel: PIE: World Init took: (0.002669s)
+[2022.04.02-16.47.42:092][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PrototypeMap.PrototypeMap to /Game/Levels/UEDPIE_0_PrototypeMap.PrototypeMap (0.008925s)
+[2022.04.02-16.47.42:281][ 88]LogUObjectHash: Compacting FUObjectHashTables data took  12.37ms
+[2022.04.02-16.47.42:296][ 88]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2022.04.02-16.47.42:296][ 88]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.04.02-16.47.42:296][ 88]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.04.02-16.47.42:296][ 88]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.04.02-16.47.42:296][ 88]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.04.02-16.47.42:296][ 88]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.04.02-16.47.42:296][ 88]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.04.02-16.47.42:296][ 88]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.04.02-16.47.42:296][ 88]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.04.02-16.47.42:297][ 88]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.04.02-16.47.42:297][ 88]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.04.02-16.47.42:297][ 88]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.04.02-16.47.42:297][ 88]LogAudioMixer: Display: Initializing audio mixer.
+[2022.04.02-16.47.42:307][ 88]LogAudioMixer: Display: 0: FrontLeft
+[2022.04.02-16.47.42:307][ 88]LogAudioMixer: Display: 1: FrontRight
+[2022.04.02-16.47.42:350][ 88]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2022.04.02-16.47.42:351][ 88]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.04.02-16.47.42:351][ 88]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.04.02-16.47.42:351][ 88]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.04.02-16.47.42:352][ 88]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.04.02-16.47.42:352][ 88]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.04.02-16.47.42:352][ 88]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.04.02-16.47.42:354][ 88]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.04.02-16.47.42:354][ 88]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.04.02-16.47.42:354][ 88]LogInit: FAudioDevice initialized.
+[2022.04.02-16.47.42:354][ 88]LogAudio: Display: Audio Device (ID: 37) registered with world 'PrototypeMap'.
+[2022.04.02-16.47.42:368][ 88]LogLoad: Game class is 'MainGameMode_BP_C'
+[2022.04.02-16.47.42:370][ 88]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PrototypeMap.PrototypeMap up for play (max tick rate 0) at 2022.04.02-17.47.42
+[2022.04.02-16.47.42:371][ 88]LogWorld: Bringing up level for play took: 0.001949
+[2022.04.02-16.47.42:371][ 88]LogOnline: OSS: Creating online subsystem instance for: :Context_47
+[2022.04.02-16.47.42:377][ 88]PIE: Server logged in
+[2022.04.02-16.47.42:379][ 88]PIE: Play in editor total start time 0,298 seconds.
+[2022.04.02-16.47.53:186][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.02-16.47.53:186][ 53]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_PrototypeMap
+[2022.04.02-16.47.53:187][ 53]LogWorld: UWorld::CleanupWorld for PrototypeMap, bSessionEnded=true, bCleanupResources=true
+[2022.04.02-16.47.53:187][ 53]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.02-16.47.53:203][ 53]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.04.02-16.47.53:210][ 53]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.04.02-16.47.53:260][ 53]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.04.02-16.47.53:261][ 53]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.02-16.47.53:262][ 53]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.04.02-16.47.53:267][ 53]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.04.02-16.47.53:273][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   4.39ms
+[2022.04.02-16.47.53:313][ 54]LogPlayLevel: Display: Destroying online subsystem :Context_47
+[2022.04.02-16.49.04:955][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PrototypeMap" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Levels/PrototypeMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.04.02-16.49.05:012][396]LogUObjectHash: Compacting FUObjectHashTables data took   7.71ms
+[2022.04.02-16.49.05:045][396]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/PrototypeMap28D1A5AE427E8CBD6D46C297F97E0D58.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Levels/PrototypeMap.umap'
+[2022.04.02-16.49.05:079][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/PrototypeMap_BuiltData" FILE="D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Levels/PrototypeMap_BuiltData.uasset" SILENT=true
+[2022.04.02-16.49.05:120][396]LogSavePackage: Moving 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Saved/PrototypeMap_BuiltDataE9942825412F639162838E8A37EBC7F3.tmp' to 'D:/GitHub/Ludum-Dare-50/Ludum_Dare_50/Content/Levels/PrototypeMap_BuiltData.uasset'
+[2022.04.02-16.49.05:155][396]AssetCheck: New page: Asset Save: multiple assets
+[2022.04.02-16.49.05:155][396]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Levels/PrototypeMap_BuiltData.PrototypeMap_BuiltData
+[2022.04.02-16.49.05:155][396]LogContentValidation: Display: Validating World /Game/Levels/PrototypeMap.PrototypeMap
