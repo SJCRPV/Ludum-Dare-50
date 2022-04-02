@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeLudum_Dare_50_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x76CE992F,
-				0x698C6C2E,
+				0x0F593110,
+				0xDBB061DA,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

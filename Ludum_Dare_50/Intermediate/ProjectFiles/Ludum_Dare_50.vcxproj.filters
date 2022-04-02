@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Ludum_Dare_50.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5CCE0F4F-E96F-4182-8DA3-CE6A27AD8C41}</UniqueIdentifier>
+      <UniqueIdentifier>{FA112AD3-BC3A-43DF-B49E-68BAD1276C6B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Ludum_Dare_50.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{B070B98B-3359-4E0A-A3B6-D519443C1DA4}</UniqueIdentifier>
+      <UniqueIdentifier>{D929C39B-824E-4120-800D-52FC02A1AEFF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Ludum_Dare_50">
-      <UniqueIdentifier>{5812D073-77D4-4E5A-A42C-085A4327E981}</UniqueIdentifier>
+      <UniqueIdentifier>{E8A4B6BD-D96E-44FB-8553-CB2445E69E4C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Ludum_Dare_50\Ludum_Dare_50.Build.cs">
       <Filter>Source\Ludum_Dare_50</Filter>
@@ -40,6 +40,78 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\Ludum_Dare_50\Ludum_Dare_50GameModeBase.h">
       <Filter>Source\Ludum_Dare_50</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ludum_Dare_50\WizardCharacter.cpp">
+      <Filter>Source\Ludum_Dare_50</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ludum_Dare_50\WizardCharacter.h">
+      <Filter>Source\Ludum_Dare_50</Filter>
+    </ClInclude>
+    <Filter Include="Source\Ludum_Dare_50\Managers">
+      <UniqueIdentifier>{2D552A0B-14DF-493C-82C6-099584616DBA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Ludum_Dare_50\Managers\DayManager.cpp">
+      <Filter>Source\Ludum_Dare_50\Managers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ludum_Dare_50\Managers\DayManager.h">
+      <Filter>Source\Ludum_Dare_50\Managers</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ludum_Dare_50\Managers\DifficultyManager.cpp">
+      <Filter>Source\Ludum_Dare_50\Managers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ludum_Dare_50\Managers\DifficultyManager.h">
+      <Filter>Source\Ludum_Dare_50\Managers</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ludum_Dare_50\Managers\MinigameManager.cpp">
+      <Filter>Source\Ludum_Dare_50\Managers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ludum_Dare_50\Managers\MinigameManager.h">
+      <Filter>Source\Ludum_Dare_50\Managers</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ludum_Dare_50\Managers\QuotaManager.cpp">
+      <Filter>Source\Ludum_Dare_50\Managers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ludum_Dare_50\Managers\QuotaManager.h">
+      <Filter>Source\Ludum_Dare_50\Managers</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ludum_Dare_50\Managers\ScoreManager.cpp">
+      <Filter>Source\Ludum_Dare_50\Managers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ludum_Dare_50\Managers\ScoreManager.h">
+      <Filter>Source\Ludum_Dare_50\Managers</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ludum_Dare_50\Managers\TimeManager.cpp">
+      <Filter>Source\Ludum_Dare_50\Managers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ludum_Dare_50\Managers\TimeManager.h">
+      <Filter>Source\Ludum_Dare_50\Managers</Filter>
+    </ClInclude>
+    <Filter Include="Source\Ludum_Dare_50\Minigames">
+      <UniqueIdentifier>{8189BB64-6F91-4363-966B-1C4E4BEE6ED3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Ludum_Dare_50\Minigames\BookSearch.cpp">
+      <Filter>Source\Ludum_Dare_50\Minigames</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ludum_Dare_50\Minigames\BookSearch.h">
+      <Filter>Source\Ludum_Dare_50\Minigames</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ludum_Dare_50\Minigames\Minigame.cpp">
+      <Filter>Source\Ludum_Dare_50\Minigames</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ludum_Dare_50\Minigames\Minigame.h">
+      <Filter>Source\Ludum_Dare_50\Minigames</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ludum_Dare_50\Minigames\RuneSorter.cpp">
+      <Filter>Source\Ludum_Dare_50\Minigames</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ludum_Dare_50\Minigames\RuneSorter.h">
+      <Filter>Source\Ludum_Dare_50\Minigames</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ludum_Dare_50\Minigames\Spellcasting.cpp">
+      <Filter>Source\Ludum_Dare_50\Minigames</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ludum_Dare_50\Minigames\Spellcasting.h">
+      <Filter>Source\Ludum_Dare_50\Minigames</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
