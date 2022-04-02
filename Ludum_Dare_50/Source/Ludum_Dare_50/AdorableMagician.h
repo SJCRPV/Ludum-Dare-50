@@ -3,15 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/PlayerController.h"
-#include "WizardController.generated.h"
+#include "PaperCharacter.h"
+#include "AdorableMagician.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class LUDUM_DARE_50_API AWizardController : public APlayerController
+class LUDUM_DARE_50_API AAdorableMagician : public APaperCharacter
 {
 	GENERATED_BODY()
-	
 };

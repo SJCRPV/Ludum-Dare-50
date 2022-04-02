@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Ludum_Dare_50.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{F2E26007-21D2-4CB8-85DE-A6B4E47B7A80}</UniqueIdentifier>
+      <UniqueIdentifier>{5283121A-4B09-4D55-A4C4-BBE5B7491691}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Ludum_Dare_50.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{E80A549B-627D-4F42-A59E-36B98938467C}</UniqueIdentifier>
+      <UniqueIdentifier>{CDD0B56C-3C30-48EF-BAC0-7FD84487898D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,8 +27,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Ludum_Dare_50">
-      <UniqueIdentifier>{BC37E319-2867-463B-BBAF-E1AC8135AD26}</UniqueIdentifier>
+      <UniqueIdentifier>{8BE50C77-E01E-4DD4-9464-083DBCE370D6}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Ludum_Dare_50\AdorableMagician.cpp">
+      <Filter>Source\Ludum_Dare_50</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ludum_Dare_50\AdorableMagician.h">
+      <Filter>Source\Ludum_Dare_50</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Ludum_Dare_50\Ludum_Dare_50.Build.cs">
       <Filter>Source\Ludum_Dare_50</Filter>
     </None>
@@ -44,20 +50,8 @@
     <ClInclude Include="..\..\Source\Ludum_Dare_50\Ludum_Dare_50GameModeBase.h">
       <Filter>Source\Ludum_Dare_50</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Ludum_Dare_50\WizardCharacter.cpp">
-      <Filter>Source\Ludum_Dare_50</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Ludum_Dare_50\WizardCharacter.h">
-      <Filter>Source\Ludum_Dare_50</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Ludum_Dare_50\WizardController.cpp">
-      <Filter>Source\Ludum_Dare_50</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Ludum_Dare_50\WizardController.h">
-      <Filter>Source\Ludum_Dare_50</Filter>
-    </ClInclude>
     <Filter Include="Source\Ludum_Dare_50\Managers">
-      <UniqueIdentifier>{5DCFBA5F-6E74-47A4-AB4E-AF315338ECF0}</UniqueIdentifier>
+      <UniqueIdentifier>{D5AA1B3A-3CAE-41E9-BB2D-D7C6D6AF120A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Ludum_Dare_50\Managers\DayManager.cpp">
       <Filter>Source\Ludum_Dare_50\Managers</Filter>
@@ -96,7 +90,7 @@
       <Filter>Source\Ludum_Dare_50\Managers</Filter>
     </ClInclude>
     <Filter Include="Source\Ludum_Dare_50\Minigames">
-      <UniqueIdentifier>{D7422A7F-DA00-484C-9C7E-D0060F4BE074}</UniqueIdentifier>
+      <UniqueIdentifier>{29DF9103-DE2E-40C0-836F-6F0588A115BB}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Ludum_Dare_50\Minigames\BookSearch.cpp">
       <Filter>Source\Ludum_Dare_50\Minigames</Filter>
