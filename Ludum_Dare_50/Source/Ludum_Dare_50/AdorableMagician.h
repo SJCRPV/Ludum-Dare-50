@@ -13,4 +13,11 @@ UCLASS()
 class LUDUM_DARE_50_API AAdorableMagician : public APaperCharacter
 {
 	GENERATED_BODY()
+
+protected:
+	UPROPERTY(BlueprintReadWrite, Category = "Adorable Magician")
+	bool isAcceptingMovementInput = true;
+
+public:
+	void SetPlayerCanMoveTo(bool newStatus);
 };

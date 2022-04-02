@@ -28,6 +28,22 @@
 			"Type": "Executable"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/PaperFlipbookWidget/Binaries/Win64/UE4Editor-PaperFlipbookWidget.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/PaperFlipbookWidget/Binaries/Win64/UE4Editor-PaperFlipbookWidget.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/PaperFlipbookWidget/Binaries/Win64/UE4Editor-PaperFlipbookWidgetEditor.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/PaperFlipbookWidget/Binaries/Win64/UE4Editor-PaperFlipbookWidgetEditor.pdb",
+			"Type": "SymbolFile"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -2368,6 +2384,10 @@
 			"Type": "RequiredResource"
 		},
 		{
+			"Path": "$(ProjectDir)/Plugins/PaperFlipbookWidget/Binaries/Win64/UE4Editor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor.modules",
 			"Type": "RequiredResource"
 		},
@@ -2851,6 +2871,10 @@
 	"RuntimeDependencies": [
 		{
 			"Path": "$(ProjectDir)/Ludum_Dare_50.uproject",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/PaperFlipbookWidget/PaperFlipbookWidget.uplugin",
 			"Type": "UFS"
 		},
 		{

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Ludum_Dare_50.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5283121A-4B09-4D55-A4C4-BBE5B7491691}</UniqueIdentifier>
+      <UniqueIdentifier>{15D055CC-98ED-4BEE-8E48-42D2DDF4ABDC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Ludum_Dare_50.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{CDD0B56C-3C30-48EF-BAC0-7FD84487898D}</UniqueIdentifier>
+      <UniqueIdentifier>{DB5EC774-FF1B-41E2-B514-1A6094A4CEDC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Ludum_Dare_50">
-      <UniqueIdentifier>{8BE50C77-E01E-4DD4-9464-083DBCE370D6}</UniqueIdentifier>
+      <UniqueIdentifier>{48A6411E-BE31-4C3B-ABBD-9EC32C3A0C0A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Ludum_Dare_50\AdorableMagician.cpp">
       <Filter>Source\Ludum_Dare_50</Filter>
@@ -51,7 +51,7 @@
       <Filter>Source\Ludum_Dare_50</Filter>
     </ClInclude>
     <Filter Include="Source\Ludum_Dare_50\Managers">
-      <UniqueIdentifier>{D5AA1B3A-3CAE-41E9-BB2D-D7C6D6AF120A}</UniqueIdentifier>
+      <UniqueIdentifier>{74636340-7A56-40B0-B927-37ACE3947D0E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Ludum_Dare_50\Managers\DayManager.cpp">
       <Filter>Source\Ludum_Dare_50\Managers</Filter>
@@ -90,12 +90,18 @@
       <Filter>Source\Ludum_Dare_50\Managers</Filter>
     </ClInclude>
     <Filter Include="Source\Ludum_Dare_50\Minigames">
-      <UniqueIdentifier>{29DF9103-DE2E-40C0-836F-6F0588A115BB}</UniqueIdentifier>
+      <UniqueIdentifier>{ECB7759A-ACCD-4246-AE93-332E297DF4BF}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Ludum_Dare_50\Minigames\BookSearch.cpp">
       <Filter>Source\Ludum_Dare_50\Minigames</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Ludum_Dare_50\Minigames\BookSearch.h">
+      <Filter>Source\Ludum_Dare_50\Minigames</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ludum_Dare_50\Minigames\BookSearchWidget.cpp">
+      <Filter>Source\Ludum_Dare_50\Minigames</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ludum_Dare_50\Minigames\BookSearchWidget.h">
       <Filter>Source\Ludum_Dare_50\Minigames</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Ludum_Dare_50\Minigames\Minigame.cpp">

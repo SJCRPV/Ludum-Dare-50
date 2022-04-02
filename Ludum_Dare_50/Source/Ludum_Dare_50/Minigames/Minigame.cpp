@@ -25,3 +25,17 @@ void AMinigame::Tick(float DeltaTime)
 
 }
 
+void AMinigame::prepareMinigame()
+{
+}
+
+FVector AMinigame::GetStartingPosition()
+{
+	return startPosition;
+}
+
+void AMinigame::StartMinigame()
+{
+	prepareMinigame();
+}
+

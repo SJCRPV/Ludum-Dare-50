@@ -4,6 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include <Kismet/GameplayStatics.h>
+#include <Ludum_Dare_50/Minigames/Minigame.h>
+#include <Ludum_Dare_50/AdorableMagician.h>
 #include "MinigameManager.generated.h"
 
 UCLASS()
@@ -23,4 +26,23 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	//USER PROPERTIES AND FUNCTIONS BELOW
+protected: 
+	UPROPERTY(EditAnywhere, Category = "Minigame Manager")
+	AActor* minigameStationBlueprint;
+	
+	UPROPERTY(EditAnywhere, Category = "Minigame Manager")
+	TArray<AActor*> possibleMinigameStationPositions;
+	
+	UPROPERTY(EditAnywhere, Category = "Minigame Manager")
+	TArray<AMinigame*> possibleMinigames;	
+	TArray<AMinigame*> remainingUnpickedMinigames;
+
+	AAdorableMagician* magician;
+
+private:
+	void spawnMinigameStations();
+	void teleportCameraTo(FVector position);
+	void resetMinigameChoices();
+	void pickNextMinigame();
 };

@@ -2,3 +2,8 @@
 
 
 #include "AdorableMagician.h"
+
+void AAdorableMagician::SetPlayerCanMoveTo(bool newStatus)
+{
+	isAcceptingMovementInput = newStatus;
+}

@@ -10,8 +10,16 @@
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
 				"Engine",
-				"Paper2D"
+				"Paper2D",
+				"UMG"
 			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "PaperFlipbookWidget",
+			"Enabled": true,
+			"MarketplaceURL": "https://unrealengineresources.com/plugins"
 		}
 	]
 }

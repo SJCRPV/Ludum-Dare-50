@@ -16,6 +16,7 @@ void AMinigameManager::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	magician = Cast<AAdorableMagician>(UGameplayStatics::GetActorOfClass(GetWorld(), TSubclassOf<AAdorableMagician>()));
 }
 
 // Called every frame
@@ -23,5 +24,44 @@ void AMinigameManager::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void AMinigameManager::spawnMinigameStations()
+{
+	for (AActor* position : possibleMinigameStationPositions)
+	{
+		AActor* station = NewObject<AActor>(minigameStationBlueprint);
+		station->SetActorLocation(position->GetActorLocation());
+	}
+}
+
+void AMinigameManager::teleportCameraTo(FVector position)
+{
+	magician->SetActorLocation(position);
+}
+
+void AMinigameManager::resetMinigameChoices()
+{
+	remainingUnpickedMinigames.Empty();
+	for (AMinigame* minigame : possibleMinigames)
+	{
+		remainingUnpickedMinigames.Add(minigame);
+	}
+}
+
+void AMinigameManager::pickNextMinigame()
+{
+	AMinigame* selectedMinigame = remainingUnpickedMinigames[FMath::FRandRange(0, remainingUnpickedMinigames.Num())];
+	remainingUnpickedMinigames.RemoveAt(FMath::FRandRange(0, remainingUnpickedMinigames.Num()));
+
+	if (remainingUnpickedMinigames.Num() <= 0)
+	{
+		resetMinigameChoices();
+	}
+
+	magician->SetPlayerCanMoveTo(false);
+	teleportCameraTo(selectedMinigame->GetStartingPosition());
+
+	selectedMinigame->StartMinigame();
 }
 

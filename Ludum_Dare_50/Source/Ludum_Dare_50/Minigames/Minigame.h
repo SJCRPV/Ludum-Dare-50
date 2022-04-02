@@ -23,4 +23,13 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	//USER PROPERTIES AND FUNCTIONS BELOW
+private:
+	FVector startPosition;
+	void prepareMinigame();
+
+public:
+	FVector GetStartingPosition();
+	void StartMinigame();
+
 };
