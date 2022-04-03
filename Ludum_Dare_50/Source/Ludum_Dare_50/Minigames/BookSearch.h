@@ -21,13 +21,17 @@ class LUDUM_DARE_50_API ABookSearch : public AMinigame
 public:
 	UBookSearchWidget* MinigameWidget;
 
-	int NumberOfPagesToLook = 100;
 
-	//void StartMinigame() override;
+	UFUNCTION(BlueprintCallable, Category = "Book Search")
+	int GetCorrectPage();
+	UFUNCTION(BlueprintCallable, Category = "Book Search")
+	int GetNumberOfPagesInBook();
+	void StartMinigame() override;
 
 protected:
 
 private:
-
+	int NumberOfPagesInBook = 100;
+	int CorrectPage;
 
 };

@@ -32,7 +32,7 @@ protected:
 	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
 	class UImage* ProximityImage;
 
-	UPROPERTY(BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite, Category = "Book Search Widget")
 	float previousRecordedPageNumber;
 private:
 };

@@ -33,11 +33,11 @@ void AMinigame::Tick(float DeltaTime)
 
 }
 
-bool AMinigame::SetIsNextMinigameTo(bool newStatus)
-{
-	isNextMinigame = newStatus;
-	return isNextMinigame;
-}
+//bool AMinigame::SetIsNextMinigameTo(bool newStatus)
+//{
+//	isNextMinigame = newStatus;
+//	return isNextMinigame;
+//}
 
 void AMinigame::teleportCameraTo(FVector position)
 {
@@ -56,10 +56,10 @@ FVector AMinigame::GetStartingPosition()
 	return StartPosition;
 }
 
-bool AMinigame::GetIsNextMinigame()
-{
-	return isNextMinigame;
-}
+//bool AMinigame::GetIsNextMinigame()
+//{
+//	return isNextMinigame;
+//}
 
 void AMinigame::StartMinigame()
 {

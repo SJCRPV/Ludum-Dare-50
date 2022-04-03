@@ -5,8 +5,9 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Kismet/GameplayStatics.h"
-#include <Ludum_Dare_50/AdorableMagician.h>
 #include <Runtime/Engine/Classes/Camera/CameraComponent.h>
+#include <Ludum_Dare_50/AdorableMagician.h>
+#include <Ludum_Dare_50/Managers/DifficultyManager.h>
 #include "Minigame.generated.h"
 
 //class AMinigameManager;
@@ -32,8 +33,8 @@ public:
 public:
 	virtual FVector GetStartingPosition();
 
-	UFUNCTION(BlueprintCallable, Category = "Minigame Base")
-	bool GetIsNextMinigame();
+	/*UFUNCTION(BlueprintCallable, Category = "Minigame Base")
+	bool GetIsNextMinigame();*/
 
 	UFUNCTION(BlueprintCallable, Category = "Minigame Base")
 	virtual void StartMinigame();
@@ -41,19 +42,20 @@ public:
 protected:
 
 	AAdorableMagician* magician;
+	ADifficultyManager* DifficultyManager;
 
-	UPROPERTY(EditAnywhere, Category = "Minigame Base")
+	UPROPERTY(BlueprintReadOnly, Category = "Minigame Base")
 	FVector StartPosition;
 
-	UFUNCTION(BlueprintCallable, Category = "Minigame Base")
-	bool SetIsNextMinigameTo(bool newStatus);
+	/*UFUNCTION(BlueprintCallable, Category = "Minigame Base")
+	bool SetIsNextMinigameTo(bool newStatus);*/
 
 	virtual void PrepareMinigame();
 
 
 private:
-	UPROPERTY(EditAnywhere, Category = "Minigame Base")
-	bool isNextMinigame;
+	/*UPROPERTY(EditAnywhere, Category = "Minigame Base")
+	bool isNextMinigame;*/
 
 	void teleportCameraTo(FVector position);
 };

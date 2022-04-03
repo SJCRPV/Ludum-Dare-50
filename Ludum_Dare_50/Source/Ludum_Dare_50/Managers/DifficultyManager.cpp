@@ -25,3 +25,8 @@ void ADifficultyManager::Tick(float DeltaTime)
 
 }
 
+float ADifficultyManager::GetDifficultyMultiplier()
+{
+	return 1.0f;
+}
+

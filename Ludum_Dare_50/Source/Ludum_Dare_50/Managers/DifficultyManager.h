@@ -23,4 +23,11 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	//USER PROPERTIES AND FUNCTIONS BELOW
+public:
+	float GetDifficultyMultiplier();
+
+protected:
+private:
+
 };
