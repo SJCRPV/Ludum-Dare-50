@@ -15,8 +15,6 @@ AMinigameManager::AMinigameManager()
 void AMinigameManager::BeginPlay()
 {
 	Super::BeginPlay();
-	
-	magician = Cast<AAdorableMagician>(UGameplayStatics::GetActorOfClass(GetWorld(), TSubclassOf<AAdorableMagician>()));
 }
 
 // Called every frame
@@ -33,11 +31,6 @@ void AMinigameManager::spawnMinigameStations()
 		AActor* station = NewObject<AActor>(minigameStationBlueprint);
 		station->SetActorLocation(position->GetActorLocation());
 	}
-}
-
-void AMinigameManager::teleportCameraTo(FVector position)
-{
-	magician->SetActorLocation(position);
 }
 
 void AMinigameManager::resetMinigameChoices()
@@ -58,10 +51,5 @@ void AMinigameManager::pickNextMinigame()
 	{
 		resetMinigameChoices();
 	}
-
-	magician->SetPlayerCanMoveTo(false);
-	teleportCameraTo(selectedMinigame->GetStartingPosition());
-
-	selectedMinigame->StartMinigame();
 }
 

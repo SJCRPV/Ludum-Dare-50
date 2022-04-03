@@ -6,7 +6,6 @@
 #include "GameFramework/Actor.h"
 #include <Kismet/GameplayStatics.h>
 #include <Ludum_Dare_50/Minigames/Minigame.h>
-#include <Ludum_Dare_50/AdorableMagician.h>
 #include "MinigameManager.generated.h"
 
 UCLASS()
@@ -27,6 +26,10 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	//USER PROPERTIES AND FUNCTIONS BELOW
+/*public:
+	UFUNCTION(BlueprintCallable, Category = "Minigame Manager")
+	void */
+
 protected: 
 	UPROPERTY(EditAnywhere, Category = "Minigame Manager")
 	AActor* minigameStationBlueprint;
@@ -38,11 +41,8 @@ protected:
 	TArray<AMinigame*> possibleMinigames;	
 	TArray<AMinigame*> remainingUnpickedMinigames;
 
-	AAdorableMagician* magician;
-
 private:
 	void spawnMinigameStations();
-	void teleportCameraTo(FVector position);
 	void resetMinigameChoices();
 	void pickNextMinigame();
 };

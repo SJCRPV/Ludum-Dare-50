@@ -19,5 +19,6 @@ protected:
 	bool isAcceptingMovementInput = true;
 
 public:
+	UFUNCTION(BlueprintCallable, Category = "Adorable Magician")
 	void SetPlayerCanMoveTo(bool newStatus);
 };

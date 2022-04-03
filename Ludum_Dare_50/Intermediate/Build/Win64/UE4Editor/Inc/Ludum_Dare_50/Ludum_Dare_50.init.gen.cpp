@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeLudum_Dare_50_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xD3A8A437,
+				0x9577C5A4,
 				0x1CEC0079,
 				METADATA_PARAMS(nullptr, 0)
 			};
