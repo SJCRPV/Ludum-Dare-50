@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Ludum_Dare_50.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A02F1888-EF40-421B-90CB-2CA9A1A47674}</UniqueIdentifier>
+      <UniqueIdentifier>{8A98FF46-84B1-48A3-B8F1-A19C76EB43E4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Ludum_Dare_50.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{1A0A6D58-8A30-4E06-923A-BE454FADD95B}</UniqueIdentifier>
+      <UniqueIdentifier>{7E7D450F-FABC-4168-A100-26B9F5FEA41F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,22 +27,22 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Plugins">
-      <UniqueIdentifier>{9D25B314-7F40-4E2C-9DD8-15092E6D96A2}</UniqueIdentifier>
+      <UniqueIdentifier>{8C8C419A-F2D3-4FE4-81AA-44A002EA255E}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\PaperFlipbookWidget">
-      <UniqueIdentifier>{AFC837DB-C245-498D-B07C-4426E7E8B76E}</UniqueIdentifier>
+      <UniqueIdentifier>{B63350AF-341E-4037-B9AD-B65E9C59DC3C}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\PaperFlipbookWidget\Source">
-      <UniqueIdentifier>{61DEB037-0965-4FFA-AA51-4117BEB133EE}</UniqueIdentifier>
+      <UniqueIdentifier>{88C30ACD-BD50-4D53-A952-D2DCE9294710}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\PaperFlipbookWidget\Source\PaperFlipbookWidget">
-      <UniqueIdentifier>{45E1386F-FE17-4771-B5E1-9DEC99714A58}</UniqueIdentifier>
+      <UniqueIdentifier>{B086E8DB-074C-450B-8F3E-FD7FDA5A1212}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\PaperFlipbookWidget\Source\PaperFlipbookWidget\PaperFlipbookWidget.Build.cs">
       <Filter>Plugins\PaperFlipbookWidget\Source\PaperFlipbookWidget</Filter>
     </None>
     <Filter Include="Plugins\PaperFlipbookWidget\Source\PaperFlipbookWidget\Private">
-      <UniqueIdentifier>{9FE44AEA-24AF-4AAC-8D4E-8B25726085BF}</UniqueIdentifier>
+      <UniqueIdentifier>{9E0098E5-801B-482A-B19C-8625597113A3}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\PaperFlipbookWidget\Source\PaperFlipbookWidget\Private\PaperFlipbookUserWidget.cpp">
       <Filter>Plugins\PaperFlipbookWidget\Source\PaperFlipbookWidget\Private</Filter>
@@ -54,7 +54,7 @@
       <Filter>Plugins\PaperFlipbookWidget\Source\PaperFlipbookWidget\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\PaperFlipbookWidget\Source\PaperFlipbookWidget\Public">
-      <UniqueIdentifier>{A1501FD4-1845-42EC-BFBC-514E8A784879}</UniqueIdentifier>
+      <UniqueIdentifier>{9C252EDC-CBBF-4ECD-9FC0-11804B08FFC7}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\PaperFlipbookWidget\Source\PaperFlipbookWidget\Public\PaperFlipbookUserWidget.h">
       <Filter>Plugins\PaperFlipbookWidget\Source\PaperFlipbookWidget\Public</Filter>
@@ -72,19 +72,19 @@
       <Filter>Plugins\PaperFlipbookWidget</Filter>
     </None>
     <Filter Include="Plugins\PaperFlipbookWidget\Resources">
-      <UniqueIdentifier>{9C80DF89-64B1-4539-8AB4-3893E206ADC3}</UniqueIdentifier>
+      <UniqueIdentifier>{ABEF970E-2D3D-4C89-B465-0DCCD0185EA1}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\PaperFlipbookWidget\Resources\Icon128.png">
       <Filter>Plugins\PaperFlipbookWidget\Resources</Filter>
     </None>
     <Filter Include="Plugins\PaperFlipbookWidget\Source\PaperFlipbookWidgetEditor">
-      <UniqueIdentifier>{36360E06-2AAE-4983-BFC7-B2580D12FC0C}</UniqueIdentifier>
+      <UniqueIdentifier>{4119E75E-FD5D-4C23-BA61-4FEE54E70BC5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\PaperFlipbookWidget\Source\PaperFlipbookWidgetEditor\PaperFlipbookWidgetEditor.Build.cs">
       <Filter>Plugins\PaperFlipbookWidget\Source\PaperFlipbookWidgetEditor</Filter>
     </None>
     <Filter Include="Plugins\PaperFlipbookWidget\Source\PaperFlipbookWidgetEditor\Private">
-      <UniqueIdentifier>{01262E9E-1C52-4608-877F-DC5E2CDFA6DB}</UniqueIdentifier>
+      <UniqueIdentifier>{2FF518B9-4052-49E8-BF19-56EA8BAFC357}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\PaperFlipbookWidget\Source\PaperFlipbookWidgetEditor\Private\PaperFlipbookWidgetEditor.cpp">
       <Filter>Plugins\PaperFlipbookWidget\Source\PaperFlipbookWidgetEditor\Private</Filter>
@@ -96,13 +96,13 @@
       <Filter>Plugins\PaperFlipbookWidget\Source\PaperFlipbookWidgetEditor\Private</Filter>
     </ClInclude>
     <Filter Include="Plugins\PaperFlipbookWidget\Source\PaperFlipbookWidgetEditor\Public">
-      <UniqueIdentifier>{FE3A8314-09EC-426E-BD4E-205B775652CD}</UniqueIdentifier>
+      <UniqueIdentifier>{C6E317B4-68B8-416A-AFE0-12859118C296}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\PaperFlipbookWidget\Source\PaperFlipbookWidgetEditor\Public\PaperFlipbookWidgetEditor.h">
       <Filter>Plugins\PaperFlipbookWidget\Source\PaperFlipbookWidgetEditor\Public</Filter>
     </ClInclude>
     <Filter Include="Source\Ludum_Dare_50">
-      <UniqueIdentifier>{E9DF021C-AC43-4567-B03C-4B9AE7E6603E}</UniqueIdentifier>
+      <UniqueIdentifier>{9182DD3C-C3D3-44B0-84E4-2EF9F9D85917}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Ludum_Dare_50\AdorableMagician.cpp">
       <Filter>Source\Ludum_Dare_50</Filter>
@@ -126,7 +126,7 @@
       <Filter>Source\Ludum_Dare_50</Filter>
     </ClInclude>
     <Filter Include="Source\Ludum_Dare_50\Managers">
-      <UniqueIdentifier>{77F23517-E081-4401-89A3-84FC8352A092}</UniqueIdentifier>
+      <UniqueIdentifier>{3794E226-274B-481A-A51C-94B8741E78A5}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Ludum_Dare_50\Managers\DayManager.cpp">
       <Filter>Source\Ludum_Dare_50\Managers</Filter>
@@ -165,7 +165,7 @@
       <Filter>Source\Ludum_Dare_50\Managers</Filter>
     </ClInclude>
     <Filter Include="Source\Ludum_Dare_50\Minigames">
-      <UniqueIdentifier>{EAAC67AD-7C7D-44C9-A8F1-15F09677BB36}</UniqueIdentifier>
+      <UniqueIdentifier>{86E9B484-5D53-41D7-88CD-BCB8DE63844D}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Ludum_Dare_50\Minigames\BookSearch.cpp">
       <Filter>Source\Ludum_Dare_50\Minigames</Filter>
@@ -189,6 +189,12 @@
       <Filter>Source\Ludum_Dare_50\Minigames</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Ludum_Dare_50\Minigames\RuneSorter.h">
+      <Filter>Source\Ludum_Dare_50\Minigames</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Ludum_Dare_50\Minigames\RuneSorterWidget.cpp">
+      <Filter>Source\Ludum_Dare_50\Minigames</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Ludum_Dare_50\Minigames\RuneSorterWidget.h">
       <Filter>Source\Ludum_Dare_50\Minigames</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Ludum_Dare_50\Minigames\Spellcasting.cpp">
