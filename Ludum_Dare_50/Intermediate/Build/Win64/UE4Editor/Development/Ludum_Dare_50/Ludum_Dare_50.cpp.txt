@@ -1,2 +1,0 @@
-D:\GitHub\Ludum-Dare-50\Ludum_Dare_50\Intermediate\Build\Win64\UE4Editor\Development\Ludum_Dare_50\Definitions.Ludum_Dare_50.h
-D:\GitHub\Ludum-Dare-50\Ludum_Dare_50\Source\Ludum_Dare_50\Ludum_Dare_50.h
