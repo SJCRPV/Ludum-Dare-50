@@ -8,6 +8,7 @@
 #include <Runtime/Engine/Classes/Camera/CameraComponent.h>
 #include <Ludum_Dare_50/AdorableMagician.h>
 #include <Ludum_Dare_50/Managers/DifficultyManager.h>
+#include <Ludum_Dare_50/Managers/QuotaManager.h>
 #include "Minigame.generated.h"
 
 //class AMinigameManager;
@@ -33,8 +34,8 @@ public:
 public:
 	virtual FVector GetStartingPosition();
 
-	/*UFUNCTION(BlueprintCallable, Category = "Minigame Base")
-	bool GetIsNextMinigame();*/
+	UFUNCTION(BlueprintCallable, Category = "Minigame Base")
+	virtual void WinMinigame();
 
 	UFUNCTION(BlueprintCallable, Category = "Minigame Base")
 	virtual void StartMinigame();
@@ -43,6 +44,7 @@ protected:
 
 	AAdorableMagician* magician;
 	ADifficultyManager* DifficultyManager;
+	AQuotaManager* QuotaManager;
 
 	UPROPERTY(BlueprintReadOnly, Category = "Minigame Base")
 	FVector StartPosition;

@@ -56,10 +56,17 @@ FVector AMinigame::GetStartingPosition()
 	return StartPosition;
 }
 
-//bool AMinigame::GetIsNextMinigame()
-//{
-//	return isNextMinigame;
-//}
+void AMinigame::WinMinigame()
+{
+	//QuotaManager->CompletedTask();
+
+	TArray<AActor*> spawnPoint;
+	UGameplayStatics::GetAllActorsWithTag(GetWorld(), TEXT("Spawn"), spawnPoint);
+	if (spawnPoint.IsValidIndex(0))
+	{
+		teleportCameraTo(spawnPoint[0]->GetActorLocation());
+	}
+}
 
 void AMinigame::StartMinigame()
 {

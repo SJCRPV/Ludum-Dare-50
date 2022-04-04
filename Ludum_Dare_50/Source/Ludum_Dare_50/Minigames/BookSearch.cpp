@@ -3,6 +3,11 @@
 
 #include "BookSearch.h"
 
+bool ABookSearch::IsItTheCorrectPage(int pageToCheck)
+{
+	return pageToCheck == CorrectPage;
+}
+
 int ABookSearch::GetCorrectPage()
 {
 	return CorrectPage;

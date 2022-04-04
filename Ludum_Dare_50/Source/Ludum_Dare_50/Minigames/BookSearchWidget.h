@@ -8,6 +8,7 @@
 #include "Components/Image.h"
 #include "Styling/SlateColor.h"
 #include "Math/Color.h"
+#include <Paper2D/Classes/PaperSprite.h>
 #include "BookSearchWidget.generated.h"
 
 //class USlider;
@@ -31,8 +32,14 @@ protected:
 	class USlider* BookPageSlider;
 	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
 	class UImage* ProximityImage;
+	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
+	class UImage* TextToFadeIn;
 
 	UPROPERTY(BlueprintReadWrite, Category = "Book Search Widget")
 	float previousRecordedPageNumber;
+	UPROPERTY(BlueprintReadWrite, Category = "Book Search Widget")
+	UPaperSprite* gibberishPages;
+	UPROPERTY(BlueprintReadWrite, Category = "Book Search Widget")
+	UPaperSprite* clearTextPages;
 private:
 };
